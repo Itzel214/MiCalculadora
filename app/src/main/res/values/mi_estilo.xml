@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="MiCalculadora.Bottonn" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name= "android:background">@color/purple_700</item>
+       <item name="android:clickable">true</item>
+       <item name="android:gravity">center</item>
+       <item name="android:textSize">30sp</item>
+       <item name="android:onClick">presiono</item>
+   </style>
+
+   <style name="MiCalculadora.Bottonn.Operaciones" parent="MiCalculadora.Bottonn">
+      <item name="android:background">#536115</item>
+      <item name="android:textColor">@color/white</item>
+   </style>
+
+</resources>
